@@ -73,16 +73,16 @@ const a = true;
 const b = false;
 
 // Try and guess the output of the below expressions first and write your answers down:
-const expression1 = a && b;
+const expression1 = a && b; // Output: false
 
-const expression2 = a || b;
+const expression2 = a // Output: true
 
-const expression3 = !a && b;
+const expression3 = !a && b; // Output: false
 
-const expression4 = !(a && b);
+const expression4 = !(a && b); // Output: true
 
-const expression5 = !a || !b;
+const expression5 = !a || !b; // Output: true
 
-const expression6 = !(a || b);
+const expression6 = !(a || b); // Output: false
 
-const expression7 = a && a;
+const expression7 = a && a; // Output: true
